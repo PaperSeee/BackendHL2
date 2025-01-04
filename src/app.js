@@ -163,7 +163,7 @@ if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir);
 }
 
-// Créer une fonction pour initialiser la connexion à la base de donnéesa
+// Créer une fonction pour initialiser la connexion à la base de donnéesaa
 async function initializeDatabase() {
     try {
         await client.connect();
